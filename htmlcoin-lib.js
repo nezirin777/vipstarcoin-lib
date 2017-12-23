@@ -55168,7 +55168,7 @@ arguments[4][119][0].apply(exports,arguments)
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],360:[function(require,module,exports){
 module.exports={
-  "name": "qtumcore-lib",
+  "name": "htmlcoin-lib",
   "version": "0.0.1",
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": "BitPay <dev@bitpay.com>",
@@ -55243,7 +55243,7 @@ module.exports={
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-lib.git"
+    "url": "https://github.com/HTML5/htmlcoin-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -55266,7 +55266,7 @@ module.exports={
   "license": "MIT"
 }
 
-},{}],"qtumcore-lib":[function(require,module,exports){
+},{}],"htmlcoin-lib":[function(require,module,exports){
 (function (global,Buffer){
 'use strict';
 
@@ -55276,14 +55276,14 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of qtumcore-lib found. ' +
-      'Please make sure to require qtumcore-lib and check that submodules do' +
-      ' not also include their own qtumcore-lib dependency.';
+    var message = 'More than one instance of htmlcoin-lib found. ' +
+      'Please make sure to require htmlcoin-lib and check that submodules do' +
+      ' not also include their own htmlcoin-lib dependency.';
     throw new Error(message);
   }
 };
-bitcore.versionGuard(global._qtumcore);
-global._qtumcore = bitcore.version;
+bitcore.versionGuard(global._htmlcoincore);
+global._htmlcoincore = bitcore.version;
 
 // crypto
 bitcore.crypto = {};

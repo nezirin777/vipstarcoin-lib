@@ -1,11 +1,11 @@
 # Browser Builds
 Qtumcore and most official submodules work in the browser, thanks to [browserify](http://browserify.org/) (some modules are not fully compatible with web browsers).
 
-The easiest and recommended way to use them, is via [Bower](http://bower.io/), a browser package manager, and get the release bundles. For example, when building an app that uses `qtumcore` and `qtumcore-mnemonic`, you do:
+The easiest and recommended way to use them, is via [Bower](http://bower.io/), a browser package manager, and get the release bundles. For example, when building an app that uses `htmlcoincore` and `htmlcoin-mnemonic`, you do:
 
 ```sh
-bower install qtumcore-lib
-bower install qtumcore-mnemonic
+bower install htmlcoin-lib
+bower install htmlcoin-mnemonic
 ```
 
 You can also use a `bower.json` file to store the dependencies of your project:
@@ -16,8 +16,8 @@ You can also use a `bower.json` file to store the dependencies of your project:
   "version": "0.0.1",
   "license": "MIT",
   "dependencies": {
-    "qtumcore": "^0.0.1",
-    "qtumcore-mnemonic": "^0.0.1"
+    "htmlcoincore": "^0.0.1",
+    "htmlcoin-mnemonic": "^0.0.1"
   }
 }
 ```
@@ -32,15 +32,15 @@ After this, you can include the bundled release versions in your HTML file:
 
 <head>
   <meta charset="utf-8">
-  <script src="bower_components/qtumcore/qtumcore-lib.min.js"></script>
-  <script src="bower_components/qtumcore-mnemonic/qtumcore-mnemonic.min.js"></script>
+  <script src="bower_components/htmlcoincore/htmlcoin-lib.min.js"></script>
+  <script src="bower_components/htmlcoin-mnemonic/htmlcoin-mnemonic.min.js"></script>
 </head>
 
 <body>
 
   <script type="text/javascript">
-    var qtumcore = require('qtumcore-lib');
-    var Mnemonic = require('qtumcore-mnemonic');
+    var htmlcoincore = require('htmlcoin-lib');
+    var Mnemonic = require('htmlcoin-mnemonic');
     // etc...
   </script>
 
@@ -53,11 +53,11 @@ After this, you can include the bundled release versions in your HTML file:
 If you want to use a specific version of a module, instead of a release version (not recommended), you must run browserify yourself.  You can get a minified browser bundle by running the following on the project root folder.
 
 ```sh
-browserify --require ./index.js:qtumcore-lib | uglifyjs > qtumcore-lib.min.js
+browserify --require ./index.js:htmlcoin-lib | uglifyjs > htmlcoin-lib.min.js
 ```
 
 ```sh
-browserify --require ./index.js:qtumcore-mnemonic --external qtumcore-lib | uglifyjs > qtumcore-mnemonic.min.js
+browserify --require ./index.js:htmlcoin-mnemonic --external htmlcoin-lib | uglifyjs > htmlcoin-mnemonic.min.js
 ```
 
 In many of the modules you can also run the command to build a browser bundle:

@@ -1,8 +1,8 @@
-# QTUM Address
-Represents a QTUM address. Addresses are the most popular way to make QTUM transactions.
+# HTMLCOIN Address
+Represents a HTMLCOIN address. Addresses are the most popular way to make HTMLCOIN transactions.
 
 ## Instantiate an Address
-To be able to receive QTUMs an address is needed, but in order to spend them a private key is necessary. Please take a look at the [`PrivateKey`](privatekey.md) docs for more information about exporting and saving a key.  
+To be able to receive HTMLCOINs an address is needed, but in order to spend them a private key is necessary. Please take a look at the [`PrivateKey`](privatekey.md) docs for more information about exporting and saving a key.  
 
 ```javascript
 var privateKey = new PrivateKey();

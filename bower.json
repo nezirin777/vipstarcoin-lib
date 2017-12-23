@@ -1,16 +1,17 @@
 {
-  "name": "qtumcore-lib",
-  "main": "./qtumcore-lib.min.js",
+  "name": "htmlcoin-lib",
+  "main": "./htmlcoin-lib.min.js",
   "version": "0.0.1",
-  "homepage": "http://qtum.org",
+  "homepage": "http://htmlcoin.com",
   "authors": [
-    "QTUM <foundation@qtum.org>"
+    "HTMLCOIN <support@htmlcoin.com>"
   ],
-  "description": "A pure, powerful core for your qtum project.",
+  "description": "A pure, powerful core for your HTMLCOIN project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
+    "htmlcoin",
     "bitcoin",
     "bitcore",
     "btc",
