@@ -37,7 +37,7 @@ This will generate files named `htmlcoin-lib.js` and `htmlcoin-lib.min.js`.
 ## Development & Tests
 
 ```sh
-git clone https://github.com/HTML5/htmlcoin-lib
+git clone https://github.com/HTMLCOIN/htmlcoin-lib
 cd htmlcoin-lib
 npm install
 ```

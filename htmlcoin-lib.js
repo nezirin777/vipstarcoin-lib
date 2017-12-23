@@ -53125,7 +53125,7 @@ arguments[4][119][0].apply(exports,arguments)
      * Backticks are escaped because in Internet Explorer < 9, they can break out
      * of attribute values or HTML comments. See [#59](https://html5sec.org/#59),
      * [#102](https://html5sec.org/#102), [#108](https://html5sec.org/#108), and
-     * [#133](https://html5sec.org/#133) of the [HTML5 Security Cheatsheet](https://html5sec.org/)
+     * [#133](https://html5sec.org/#133) of the [HTMLCOIN Security Cheatsheet](https://html5sec.org/)
      * for more details.
      *
      * When working with HTML you should always [quote attribute values](http://wonko.com/post/html-escaping)
@@ -55243,7 +55243,7 @@ module.exports={
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/HTML5/htmlcoin-lib.git"
+    "url": "https://github.com/HTMLCOIN/htmlcoin-lib.git"
   },
   "browser": {
     "request": "browser-request"
