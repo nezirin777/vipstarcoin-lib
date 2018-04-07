@@ -7,16 +7,16 @@ A pure and powerful JavaScript HTMLCOIN library.
 ## Get Started
 
 ```
-npm install htmlcoin-lib
+npm install vipstarcoin-lib
 ```
 
 ```
-bower install htmlcoin-lib
+bower install vipstarcoin-lib
 ```
 
 ## Security
 
-We're using htmlcoin-lib in production, but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
+We're using vipstarcoin-lib in production, but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
 
 
 
@@ -26,19 +26,19 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 ## Building the Browser Bundle
 
-To build a htmlcoin-lib full bundle for the browser:
+To build a vipstarcoin-lib full bundle for the browser:
 
 ```sh
 gulp browser
 ```
 
-This will generate files named `htmlcoin-lib.js` and `htmlcoin-lib.min.js`.
+This will generate files named `vipstarcoin-lib.js` and `vipstarcoin-lib.min.js`.
 
 ## Development & Tests
 
 ```sh
-git clone https://github.com/HTMLCOIN/htmlcoin-lib
-cd htmlcoin-lib
+git clone https://github.com/HTMLCOIN/vipstarcoin-lib
+cd vipstarcoin-lib
 npm install
 ```
 

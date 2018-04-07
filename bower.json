@@ -1,17 +1,17 @@
 {
-  "name": "htmlcoin-lib",
-  "main": "./htmlcoin-lib.min.js",
+  "name": "vipstarcoin-lib",
+  "main": "./vipstarcoin-lib.min.js",
   "version": "0.0.1",
-  "homepage": "http://htmlcoin.com",
+  "homepage": "http://github.com/fkfk/vipstarcoin-lib",
   "authors": [
-    "HTMLCOIN <support@htmlcoin.com>"
+    "Koutarou Tanaka <from.kyushu.island@gmail.com>"
   ],
-  "description": "A pure, powerful core for your HTMLCOIN project.",
+  "description": "A pure, powerful core for your VIPSTARCOIN project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "htmlcoin",
+    "vipstarcoin",
     "bitcoin",
     "bitcore",
     "btc",

@@ -1,6 +1,6 @@
 ## Principles
 
-HTMLCOIN is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the HTMLCOIN network allows for highly resilient HTMLCOIN infrastructure, and the developer community needs reliable, open-source tools to implement HTMLCOIN apps and services. Qtumcore provides a reliable API for JavaScript apps that need to interface with HTMLCOIN.
+VIPSTARCOIN is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the VIPSTARCOIN network allows for highly resilient VIPSTARCOIN infrastructure, and the developer community needs reliable, open-source tools to implement VIPSTARCOIN apps and services. Qtumcore provides a reliable API for JavaScript apps that need to interface with VIPSTARCOIN.
 
 # Documentation Index
 
@@ -13,10 +13,10 @@ HTMLCOIN is a powerful new peer-to-peer platform for the next generation of fina
 
 ## Payment Handling
 * [Using Different Units](unit.md)
-* [Acknowledging and Requesting Payments: HTMLCOIN URIs](uri.md)
+* [Acknowledging and Requesting Payments: VIPSTARCOIN URIs](uri.md)
 * [The Transaction Class](transaction.md)
 
-## HTMLCOIN Internals
+## VIPSTARCOIN Internals
 * [Scripts](script.md)
 * [Block](block.md)
 
@@ -32,11 +32,11 @@ HTMLCOIN is a powerful new peer-to-peer platform for the next generation of fina
 ## Create and Save a Private Key
 
 ```javascript
-var privateKey = new htmlcoincore.PrivateKey();
+var privateKey = new vipstarcoincore.PrivateKey();
 
 var exported = privateKey.toWIF();
 // e.g. L3T1s1TYP9oyhHpXgkyLoJFGniEgkv2Jhi138d7R2yJ9F4QdDU2m
-var imported = htmlcoincore.PrivateKey.fromWIF(exported);
+var imported = vipstarcoincore.PrivateKey.fromWIF(exported);
 var hexa = privateKey.toString();
 // e.g. 'b9de6e778fe92aa7edb69395556f843f1dce0448350112e14906efc2a80fa61a'
 ```
@@ -51,7 +51,7 @@ var address = privateKey.toAddress();
 
 ```javascript
 // Build a 2-of-3 address from public keys
-var p2shAddress = new htmlcoincore.Address([publicKey1, publicKey2, publicKey3], 2);
+var p2shAddress = new vipstarcoincore.Address([publicKey1, publicKey2, publicKey3], 2);
 ```
 
 ## Request a Payment
@@ -61,7 +61,7 @@ var paymentInfo = {
   address: '1DNtTk4PUCGAdiNETAzQFWZiy2fCHtGnPx',
   amount: 120000 //satoshis
 };
-var uri = new htmlcoincore.URI(paymentInfo).toString();
+var uri = new vipstarcoincore.URI(paymentInfo).toString();
 ```
 
 ## Create a Transaction
