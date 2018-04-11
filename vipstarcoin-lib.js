@@ -55628,7 +55628,7 @@ module.exports={
   "license": "MIT"
 }
 
-},{}],"vipstarcoion-lib":[function(require,module,exports){
+},{}],"vipstarcoin-lib":[function(require,module,exports){
 (function (global,Buffer){
 'use strict';
 
