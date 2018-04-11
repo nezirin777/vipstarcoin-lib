@@ -37,7 +37,7 @@ This will generate files named `vipstarcoin-lib.js` and `vipstarcoin-lib.min.js`
 ## Development & Tests
 
 ```sh
-git clone https://github.com/HTMLCOIN/vipstarcoin-lib
+git clone https://github.com/fkfk/vipstarcoin-lib
 cd vipstarcoin-lib
 npm install
 ```
