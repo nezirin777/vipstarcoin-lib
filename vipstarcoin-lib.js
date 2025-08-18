@@ -55605,7 +55605,7 @@ module.exports={
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fkfk/vipstarcoin-lib.git"
+    "url": "https://github.com/nezirin777/vipstarcoin-lib.git"
   },
   "browser": {
     "request": "browser-request"
