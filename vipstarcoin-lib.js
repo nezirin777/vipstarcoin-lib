@@ -4737,7 +4737,7 @@ for (var key in TESTNET) {
 
 var REGTEST = {
   PORT: 18444,
-  NETWORK_MAGIC: BufferUtil.integerAsBuffer(0xfabfb5da),
+  NETWORK_MAGIC: BufferUtil.integerAsBuffer(0x2a3b4c5d),
   DNS_SEEDS: []
 };
 
